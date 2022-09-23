@@ -4,6 +4,8 @@
 <head>
     <title> My Profile </title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
     <style>
         #name {
             color: rgb(21, 219, 31);
@@ -16,24 +18,52 @@
         #email {
             color: midnightblue;
         }
+
+        #nav {
+            text-align: center;
+            background-color: rgb(238, 123, 186);
+        }
+
+        #nav_bar,
+        a {
+            font-size: 18px;
+            font-weight: bold;
+            text-transform: uppercase;
+            text-align: center;
+            text-decoration: none;
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: rgb(224, 172, 151);
+        }
+
+        .my-frame {
+            border-style: none;
+        }
+        #target{
+            text-align: center;
+        }
     </style>
 
 </head>
 
 <body>
     <header>
-        <p> <strong> <span id="user"><i class="fa fa-user-circle-o" aria-hidden="true"></i></span> :- Nisha Phadtare
-            </strong> &nbsp;&nbsp;
-            &nbsp;&nbsp;&nbsp;&nbsp;
-            <strong> <span id="name"><i class="fa fa-phone-square" aria-hidden="true"></i></span> :- 9777253136</strong>
-            &nbsp;&nbsp;
-            &nbsp;&nbsp;&nbsp;&nbsp;
-            <strong> <span id="email"><i class="fa fa-envelope" aria-hidden="true"></i> </span> :-
-                phadtarenisha12@gmail.com</strong>&nbsp;&nbsp;
-            &nbsp;&nbsp;&nbsp;&nbsp;
-        </p>
+        <nav id="nav">
+            <div> <strong> <span id="user"><i class="fa fa-user-circle-o" aria-hidden="true"></i></span> :- Nisha
+                    Phadtare
+                </strong> &nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;
+                <strong> <span id="name"><i class="fa fa-phone-square" aria-hidden="true"></i></span> :-
+                    9777253136</strong>
+                &nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;
+                <strong> <span id="email"><i class="fa fa-envelope" aria-hidden="true"></i> </span> :-
+                    phadtarenisha12@gmail.com</strong>&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;
+            </div>
+        </nav>
     </header>
-    <div>
+    <p>
+    <nav id="nav_bar">
         <a href="home.html" target="my_frame"> HOME </a>
         &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
         <a href="techStack.html" target="my_frame"> TECH STACK </a>
@@ -43,12 +73,14 @@
         <a href="famifyDetails.html" target="my_frame"> FAMILY DETAILS</a>
         &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
         <a href="collegeDetails.html" target="my_frame"> EDUCATION </a>
-    </div>
+    </nav>
+    </p>
     <hr>
-    <iframe name="my_frame" src="info.html" width="1000" height="650"></iframe>
+    <iframe name="my_frame" src="info.html" width="1000" height="650" class="my-frame"></iframe>
 
+   
     <footer>
-
+        <nav id="target">
         <h4> Follow me on:</h4>
         <a href="https://facebook.com" target="_blank"><strong><i class="fa fa-facebook-official"
                     aria-hidden="true"></i></strong></a>
@@ -58,6 +90,7 @@
         <a href="https://google.com" target="_blank"><i class="fa fa-google" aria-hidden="true"></i></a>
         &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;
         <a href="https://instagram.com"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+    </nav>
     </footer>
 </body>
 
