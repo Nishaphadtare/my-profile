@@ -4,27 +4,93 @@
 <head>
     <title> My Profile </title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kalam&family=Poppins:wght@100;200;300&display=swap"
+        rel="stylesheet">
+    <style>
+        body {
+            background-image: url(wp2793132.webp);
+        }
+
+        #a {
+            text-align: center;
+            font-family: 'Kalam', cursive;
+            background-color: rgb(240, 152, 94);
+            font-size: 20px;
+        }
+
+        .apps {
+            text-align: center;
+            font-size: large;
+            background-color: rgb(201, 178, 117);
+        }
+
+        #user {
+            color: purple;
+        }
+
+        #phone {
+            color: green;
+        }
+
+        #email {
+            color: rgb(55, 55, 228);
+        }
+
+        .class,
+        a {
+            text-align: center;
+        }
+
+        #links,
+        a {
+            text-align: center;
+            margin-right: 30px;
+
+        }
+
+        #div,
+        a {
+            margin-right: 30px;
+        }
+
+        footer nav .Follow_me {
+            margin-right: 30px;
+
+
+        }
+
+        footer nav #follow-me-label {
+            font-size: large;
+            font-weight: bold;
+            margin-right: 30px;
+        }
+    </style>
 </head>
 
 <body>
-    <header>
-        <p> <strong> <i class="fa fa-user-circle-o" aria-hidden="true"></i> :- Nisha Phadtare </strong> &nbsp;&nbsp;
+    <header class="apps">
+        <p> <strong><span id="user"> <i class="fa fa-user-circle-o" aria-hidden="true"></i></span> :- Nisha Phadtare
+            </strong> &nbsp;&nbsp;
             &nbsp;&nbsp;&nbsp;&nbsp;
-            <strong> <i class="fa fa-phone-square" aria-hidden="true"></i>:- 9777253136</strong> &nbsp;&nbsp;
+            <strong><span id="phone"> <i class="fa fa-phone-square" aria-hidden="true"></i> </span> :-
+                9777253136</strong> &nbsp;&nbsp;
             &nbsp;&nbsp;&nbsp;&nbsp;
-            <strong> <i class="fa fa-envelope" aria-hidden="true"></i> :- phadtarenisha12@gmail.com</strong>&nbsp;&nbsp;
+            <strong><span id="email"><i class="fa fa-envelope" aria-hidden="true"></i></span> :-
+                phadtarenisha12@gmail.com</strong>&nbsp;&nbsp;
             &nbsp;&nbsp;&nbsp;&nbsp;
         </p>
     </header>
-    <div>
+    <div id="a">
         <a href="home.html" target="my_frame"> HOME </a>
-        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+
         <a href="techStack.html" target="my_frame"> TECH STACK </a>
-        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+
         <a href="perDetails.html" target="my_frame"> PERSONAL DETAILS </a>
-        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+
         <a href="famifyDetails.html" target="my_frame"> FAMILY DETAILS</a>
-        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+
         <a href="collegeDetails.html" target="my_frame"> EDUCATION </a>
 
     </div>
@@ -32,16 +98,27 @@
     <iframe name="my_frame" src="info.html" width="1000" height="650"></iframe>
 
     <footer>
+        <nav>
+            <span id="follow-me-label"> Follow me on: </span>
 
-        <h4> Follow me on:</h4>
-        <a href="https://facebook.com" target="_blank"><strong><i class="fa fa-facebook-official"
-                    aria-hidden="true"></i></strong></a>
-        &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;
-        <a href="https://LinkedIn.com" target="_blank"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
-        &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;
-        <a href="https://google.com" target="_blank"><i class="fa fa-google" aria-hidden="true"></i></a>
-        &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;
-        <a href="https://instagram.com"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+            <span class="Follow_me">
+                <a href="https://facebook.com"><i class="fa fa-facebook-official" aria-hidden="true"></i></a>
+            </span>
+
+            <span class="Follow_me">
+                <a href="https://LinkedIn.com" target="_blank"><i class="fa fa-linkedin-square"
+                        aria-hidden="true"></i></a>
+            </span>
+
+            <span class="Follow_me">
+                <a href="https://google.com" target="_blank"><i class="fa fa-google" aria-hidden="true"></i></a>
+            </span>
+
+            <span class="Follow_me">
+                <a href="https://instagram.com"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+            </span>
+        </nav>
+
     </footer>
 </body>
 
