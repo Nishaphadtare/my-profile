@@ -13,17 +13,23 @@
             background-image: url(wp2793132.webp);
         }
 
-        #a {
+        #content {
             text-align: center;
             font-family: 'Kalam', cursive;
-            background-color: rgb(240, 152, 94);
             font-size: 20px;
+            text-shadow: 4px 4px 5px black;
         }
-
+        #content a:hover {
+            color: brown;
+            text-shadow:white;
+        }
+    
         .apps {
             text-align: center;
             font-size: large;
-            background-color: rgb(201, 178, 117);
+            font-weight: bold;
+            margin-right: 30px;
+            text-shadow: 3px 5px 4px brown;
         }
 
         #user {
@@ -47,18 +53,14 @@
         a {
             text-align: center;
             margin-right: 30px;
-
         }
 
-        #div,
-        a {
+        #div, a {
             margin-right: 30px;
         }
 
         footer nav .Follow_me {
             margin-right: 30px;
-
-
         }
 
         footer nav #follow-me-label {
@@ -71,18 +73,17 @@
 
 <body>
     <header class="apps">
-        <p> <strong><span id="user"> <i class="fa fa-user-circle-o" aria-hidden="true"></i></span> :- Nisha Phadtare
-            </strong> &nbsp;&nbsp;
-            &nbsp;&nbsp;&nbsp;&nbsp;
-            <strong><span id="phone"> <i class="fa fa-phone-square" aria-hidden="true"></i> </span> :-
-                9777253136</strong> &nbsp;&nbsp;
-            &nbsp;&nbsp;&nbsp;&nbsp;
-            <strong><span id="email"><i class="fa fa-envelope" aria-hidden="true"></i></span> :-
-                phadtarenisha12@gmail.com</strong>&nbsp;&nbsp;
-            &nbsp;&nbsp;&nbsp;&nbsp;
+        <marquee width="600px" height="50px" bgcolor=powderblue direction right behavior="solid">
+        <p> <span id="user"> <i class="fa fa-user-circle-o" aria-hidden="true"></i></span> :- Nisha Phadtare
+            
+            <span id="phone"> <i class="fa fa-phone-square" aria-hidden="true"></i> </span> :- 9777253136
+         
+            <span id="email"><i class="fa fa-envelope" aria-hidden="true"></i></span> :- phadtarenisha12@gmail.com
+           
+        </marquee>
         </p>
     </header>
-    <div id="a">
+    <div id="content">
         <a href="home.html" target="my_frame"> HOME </a>
 
         <a href="techStack.html" target="my_frame"> TECH STACK </a>
@@ -93,9 +94,10 @@
 
         <a href="collegeDetails.html" target="my_frame"> EDUCATION </a>
 
+
     </div>
     <hr>
-    <iframe name="my_frame" src="info.html" width="1000" height="650"></iframe>
+    <iframe name="my_frame" src="info.html" width="1000" height="700"></iframe>
 
     <footer>
         <nav>

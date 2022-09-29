@@ -4,24 +4,27 @@
         <title> Home </title>
         <style>
             h3{
-                background-color: aquamarine;
+                text-shadow: 5px 3px 9px rgb(250, 24, 175);
+                font-style: italic;
             }
             ul li{
                 margin-bottom: 20px;
             }
-          #jira{
-            background-color: rgb(195, 195, 223);
+          .list_roles{
             font-style: unset;
             font-size: larger;
-
           }
-        </style>
+          .list_roles li::selection{
+            background: cadetblue;
+          }
+
+</style>
     </head>
     <body>
         <h3> Career Objectives </h3>
         <p>To Week In Organization where i can learn and gray my skills and help organizational growth</p>
         <h3> Professional Summary</h3>
-        <ul id="jira">
+        <ul class="list_roles">
             <li> having 1 year of experience in developing single page Web Application using Angular 8, HTML5,
                 CSS3,Bootstrap 5, JavaScript,TypeScript</li>
             <li> Experience on Working with version control system - GIT and GitHub</li>
@@ -33,6 +36,7 @@
             <li> Knowledge of NodeJS</li>
             <li> Ability to work with people at all levels in the Program</li>
         </ul>
-        <a href="index.html" target="_blank"> go back </a>
+        <a href="index.html" target="_blank"><button> go back </button> </a>
+        
     </body>
 </html>
